@@ -1,0 +1,66 @@
+body {
+    background-image: url("basketball-hoop.jpeg");
+    background-size: cover;
+    font-family: Oxygen;
+    font-weight: bold;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+#main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    background-color: aliceblue;
+    max-width: 300px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px white;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px white;
+}
+
+button {
+    border: 3px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: orangered;
+}
+
+#save-btn {
+    background: darkblue;
+}
+
+#save-el {
+    margin: 10px 0px;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px white;
+}
+
+#total-score {
+    margin: 0px;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px white;
+}
